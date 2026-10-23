@@ -1,0 +1,85 @@
+{
+  "sample": true,
+  "company": {
+    "name": "SolarNova Energy",
+    "about": "SolarNova Energy supplies and installs solar panels, hybrid inverters, battery storage and mounting kits for homes, businesses and small factories.",
+    "founded": "2014",
+    "certifications": ["MNRE approved vendor (sample)", "ISO 9001 (sample)", "Certified installers (sample)"],
+    "serviceAreas": ["Bengaluru", "Mysuru", "Hubballi", "Mangaluru"],
+    "contact": {
+      "phone": "+91 80 5555 0100",
+      "whatsapp": "+91 98000 55501",
+      "email": "hello@solarnova.example",
+      "address": "12 Sample Industrial Layout, Bengaluru 560000",
+      "hours": "Mon to Sat, 9:00 to 18:00. Closed on Sundays."
+    }
+  },
+  "products": [
+    { "id": "res-panel", "name": "Residential Mono PERC Panel 540W", "category": "Panels", "audience": "Homes", "specs": ["540W peak power", "21% efficiency", "25-year performance warranty", "12-year product warranty"], "priceRange": "INR 22 to 26 per watt installed (sample)" },
+    { "id": "com-panel", "name": "Commercial Bifacial Panel 580W", "category": "Panels", "audience": "Businesses and factories", "specs": ["580W peak power", "22% efficiency", "Bifacial gain up to 10 percent", "30-year performance warranty"], "priceRange": "INR 20 to 24 per watt installed (sample)" },
+    { "id": "hyb-inv", "name": "Hybrid Inverter 5kW", "category": "Inverters", "audience": "Homes and small shops", "specs": ["5kW output", "Works with or without a battery", "Wi-Fi monitoring", "5-year warranty"], "priceRange": "INR 55,000 to 80,000 (sample)" },
+    { "id": "li-battery", "name": "Lithium Battery 5kWh", "category": "Batteries", "audience": "Homes and small shops", "specs": ["5kWh usable", "6,000 cycles", "LiFePO4 chemistry", "10-year warranty"], "priceRange": "INR 1.8 to 2.4 lakh (sample)" },
+    { "id": "mount-kit", "name": "Rooftop Mounting Kit", "category": "Mounting", "audience": "All", "specs": ["Hot-dip galvanised or anodised aluminium", "Rated for 150 km/h wind", "Suits RCC and metal sheet roofs"], "priceRange": "Included in installed price (sample)" }
+  ],
+  "services": [
+    { "name": "Free site survey", "detail": "An engineer visits, checks roof area, shading, and load, and shares a layout." },
+    { "name": "Design and quotation", "detail": "System size, expected generation, and a fixed-price quote within 3 working days of the survey." },
+    { "name": "Installation", "detail": "Residential systems up to 10kW are usually installed in 2 to 4 days." },
+    { "name": "Grid connection and net metering", "detail": "We prepare and submit the paperwork and coordinate inspection with the utility." },
+    { "name": "Monitoring and maintenance", "detail": "App-based monitoring, twice-yearly cleaning visits on service plans, and remote fault alerts." },
+    { "name": "Warranty claims", "detail": "Raise a claim by phone, email or the contact form. We aim to respond within 1 working day." }
+  ],
+  "process": [
+    "Book a free site survey",
+    "Receive your design and fixed quote",
+    "Installation by certified team",
+    "Grid connection, handover and monitoring setup"
+  ],
+  "warranty": {
+    "panels": "Product warranty 12 years, performance warranty 25 years (30 on commercial bifacial panels).",
+    "inverter": "5 years standard, extendable to 10 years.",
+    "battery": "10 years or 6,000 cycles, whichever comes first.",
+    "workmanship": "5 years on installation workmanship.",
+    "exclusions": "Damage from misuse, unauthorised modification, flooding and natural disasters is not covered."
+  },
+  "paymentAndFinance": {
+    "options": ["Bank transfer", "UPI", "Cheque", "Partner bank solar loans (sample)"],
+    "schedule": "Typical schedule: 30 percent advance, 60 percent on material delivery, 10 percent after commissioning (sample)."
+  },
+  "generalSolarKnowledge": {
+    "generationRule": "In much of India, 1kW of rooftop solar produces roughly 4 to 5 units per day on average.",
+    "roofAreaRule": "About 8 to 10 square metres of shadow-free roof per kW.",
+    "paybackRule": "Home systems often pay back in 3 to 6 years depending on usage and tariff.",
+    "maintenance": "Clean panels every 2 to 4 weeks in dusty areas; check inverter app weekly.",
+    "subsidyNote": "Government subsidy schemes change often. Our team confirms the current scheme during the site survey. The assistant must not quote exact subsidy amounts."
+  },
+  "policies": {
+    "privacy": "Summary of the privacy policy, matching /privacy-policy.",
+    "cookies": "Summary of the cookie policy, matching /cookie-policy.",
+    "terms": "Summary of the terms, matching /terms-and-conditions.",
+    "returns": "Unused, unopened equipment can be returned within 7 days of delivery, subject to inspection (sample). Installed equipment is covered by warranty, not returns."
+  },
+  "faqs": [
+    { "q": "How much does a home solar system cost?", "a": "A 3kW home system costs roughly INR 66,000 to 78,000 installed before any subsidy. We confirm an exact fixed quote after the free site survey." },
+    { "q": "How long does installation take?", "a": "Most residential systems up to 10kW take 2 to 4 days on site. The full process from survey to grid connection usually takes 3 to 6 weeks." },
+    { "q": "How many panels do I need for a 4,000 rupee monthly bill?", "a": "A monthly bill around 4,000 rupees usually means a 3 to 4kW system, which needs about 6 to 8 panels and roughly 30 to 40 square metres of shadow-free roof. A site survey confirms the exact size." },
+    { "q": "Do you work in Delhi?", "a": "Our service areas are Bengaluru, Mysuru, Hubballi and Mangaluru. For locations outside these cities, please contact us and we will let you know if a visit is possible." },
+    { "q": "What warranty do I get on the battery?", "a": "10 years or 6,000 cycles, whichever comes first." },
+    { "q": "How does net metering work?", "a": "Net metering lets you export surplus solar power to the grid and receive credit on your electricity bill. The utility installs a net meter after inspection and we handle the paperwork." },
+    { "q": "What is the current government subsidy?", "a": "Subsidy schemes change often. Our team confirms the current scheme and eligibility during the free site survey. We do not quote exact subsidy amounts." },
+    { "q": "What is the price of the 540W residential panel?", "a": "The Residential Mono PERC Panel 540W is priced at INR 22 to 26 per watt installed, as a sample range. An exact quote follows the site survey." },
+    { "q": "What is the price of the hybrid inverter?", "a": "The Hybrid Inverter 5kW is priced at INR 55,000 to 80,000 as a sample range." },
+    { "q": "What is the price of the 5kWh battery?", "a": "The Lithium Battery 5kWh is priced at INR 1.8 to 2.4 lakh as a sample range." },
+    { "q": "How much roof area do I need?", "a": "About 8 to 10 square metres of shadow-free roof per kW of solar." },
+    { "q": "How much electricity does 1kW produce?", "a": "In much of India, 1kW of rooftop solar produces roughly 4 to 5 units per day on average." },
+    { "q": "How long until the system pays for itself?", "a": "Home systems often pay back in 3 to 6 years depending on usage and tariff." },
+    { "q": "What maintenance is needed?", "a": "Clean panels every 2 to 4 weeks in dusty areas and check the inverter app weekly. Service plans include twice-yearly cleaning visits." },
+    { "q": "What does the panel warranty cover?", "a": "Product warranty 12 years and performance warranty 25 years, 30 on commercial bifacial panels." },
+    { "q": "What does the inverter warranty cover?", "a": "5 years standard, extendable to 10 years." },
+    { "q": "What does the workmanship warranty cover?", "a": "5 years on installation workmanship." },
+    { "q": "What is not covered by warranty?", "a": "Damage from misuse, unauthorised modification, flooding and natural disasters." },
+    { "q": "What are the payment options?", "a": "Bank transfer, UPI, cheque, and partner bank solar loans (sample)." },
+    { "q": "What is the payment schedule?", "a": "Typical schedule: 30 percent advance, 60 percent on material delivery, 10 percent after commissioning (sample)." },
+    { "q": "Can I return equipment?", "a": "Unused, unopened equipment can be returned within 7 days of delivery, subject to inspection (sample). Installed equipment is covered by warranty, not returns." }
+  ]
+}
