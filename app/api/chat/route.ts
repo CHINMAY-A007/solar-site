@@ -3,7 +3,7 @@ import { buildSystemPrompt } from "@/lib/knowledge";
 import { rateLimit } from "@/lib/rateLimit";
 
 const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
-const MODEL = process.env.GEMINI_MODEL ?? "gemini-2.5-flash";
+const MODEL = process.env.GEMINI_MODEL ?? "gemini-2.0-flash";
 
 export async function POST(req: Request) {
   const ip = req.headers.get("x-forwarded-for") ?? "local";
@@ -36,7 +36,7 @@ export async function POST(req: Request) {
     const stream = await ai.models.generateContentStream({
       model: MODEL,
       contents,
-      config: { systemInstruction: buildSystemPrompt(), temperature: 0.3, maxOutputTokens: 500 },
+      config: { systemInstruction: buildSystemPrompt(), temperature: 0.3, maxOutputTokens: 300 },
     });
 
     const encoder = new TextEncoder();

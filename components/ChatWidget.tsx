@@ -237,8 +237,10 @@ export default function ChatWidget() {
           onClick={() => setOpen(true)}
           aria-label="Open chat assistant"
           aria-expanded={open}
+          style={{ width: "auto", padding: "0 20px", gap: "8px" }}
         >
-          <Icon name="chat" size={24} />
+          <Icon name="chat" size={20} />
+          <span style={{ fontSize: "14px", fontWeight: 600 }}>Ask us</span>
         </button>
       )}
 
