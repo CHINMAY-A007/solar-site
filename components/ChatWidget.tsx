@@ -253,7 +253,7 @@ export default function ChatWidget() {
       >
         <div className="chat-header">
           <div>
-            <div className="chat-header__title">SolarNova Energy</div>
+            <div className="chat-header__title">MSM Bharat Solar systems</div>
             <div className="chat-header__subtitle">Sample assistant for demo</div>
           </div>
           <div className="chat-header__actions">

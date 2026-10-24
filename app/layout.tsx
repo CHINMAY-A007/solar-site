@@ -9,11 +9,11 @@ import ChatWidget from "@/components/ChatWidget";
 const inter = Inter({ subsets: ["latin"], variable: "--font-body" });
 
 export const metadata: Metadata = {
-  title: "SolarNova Energy | Solar panels, inverters and batteries, supplied and installed",
+  title: "MSM Bharat Solar systems | Solar panels, inverters and batteries, supplied and installed",
   description:
-    "SolarNova Energy supplies and installs solar panels, hybrid inverters, battery storage and mounting kits for homes, businesses and small factories.",
+    "MSM Bharat Solar systems supplies and installs solar panels, hybrid inverters, battery storage and mounting kits for homes, businesses and small factories.",
   openGraph: {
-    title: "SolarNova Energy",
+    title: "MSM Bharat Solar systems",
     description: "Solar panels, inverters and batteries, supplied and installed.",
     type: "website",
   },

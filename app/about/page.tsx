@@ -10,7 +10,7 @@ export default function About() {
       <div className="container">
         <div className="section__head">
           <p className="eyebrow">About</p>
-          <h1>About SolarNova Energy</h1>
+          <h1>About MSM Bharat Solar systems</h1>
           <p style={{ color: "var(--muted)", marginTop: "12px" }}>
             {company.about}
           </p>

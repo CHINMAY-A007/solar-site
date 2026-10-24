@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="container">
         <div className="footer__inner">
           <div className="footer__col">
-            <h4>SolarNova Energy</h4>
+            <h4>MSM Bharat Solar systems</h4>
             <p>{companyData.company.about}</p>
           </div>
           <div className="footer__col">
@@ -38,7 +38,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="footer__bottom">
-          &copy; {new Date().getFullYear()} SolarNova Energy. All rights reserved.
+          &copy; {new Date().getFullYear()} MSM Bharat Solar systems. All rights reserved.
           <br />
           Sample site for demo purposes.
         </div>

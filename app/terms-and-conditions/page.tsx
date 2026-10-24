@@ -13,7 +13,7 @@ export default function TermsAndConditions() {
           <div>
             <h2>General</h2>
             <p style={{ color: "var(--muted)", marginTop: "8px" }}>
-              By using this website you agree to these terms. The content is provided for information about SolarNova Energy products and services.
+              By using this website you agree to these terms. The content is provided for information about MSM Bharat Solar systems products and services.
             </p>
           </div>
           <div>
